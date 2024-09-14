@@ -1,10 +1,7 @@
-def prime(num):
-    for i in range(2, int(num ** 0.5) + 1):
-        if num % i == 0:
-            return num, "is composite."
-    return num, "is prime."
-
-number = int(input("Enter a number: "))
-num, result = prime(number)
-print(num, result)
-
+x=int(input("Enter a number:"))
+def check(t):
+    if t%2==0:
+        print("Number is even")
+    else:
+        print("Number is odd")
+check(x)
